@@ -2,6 +2,18 @@
     font-family: 'Arial Rounded MT';
 }
 
+.bloodied {
+    background-color: red;
+    background-blend-mode: ;
+}
+
+.new {
+    display: flex;
+    color: wheat;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
 
 body {
     display: flex;
@@ -47,7 +59,8 @@ button {
     gap: 9rem;
     flex-wrap: wrap;
     margin-top: auto;
-    margin-bottom: auto;
+    margin-bottom: 24px;
+    position: absolute;
 }
 
 .rock {

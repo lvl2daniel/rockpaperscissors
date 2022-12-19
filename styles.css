@@ -1,0 +1,72 @@
+* {
+    font-family: 'Arial Rounded MT';
+}
+
+
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.heading {
+    color: wheat;
+    margin-bottom: 150px;
+    font-size: 50px;
+    padding: 16px;
+}
+
+.footer {
+    color: wheat;
+    margin-top:auto;
+    font-size: 15px;
+    border-top: solid;
+    border-color: wheat;
+    border-width: 4px;
+    width: 100vw;
+    text-align: center;
+    padding: 16px;
+    font-style: italic;
+}
+
+button {
+    height: 250px;
+    width: 250px;
+    border: solid;
+    border-color: white;
+    border-width: 8px;
+    border-radius: 150px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9rem;
+    flex-wrap: wrap;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.rock {
+    background-image:url(rock.jpg);
+    background-size: cover;
+}
+
+.scissors {
+    background-image: url(scissors.jpg);
+    background-size: cover;
+}
+
+.paper {
+    background-image: url(paper.jpg);
+    background-size: cover;
+}
+
+button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    border-color: antiquewhite;
+}

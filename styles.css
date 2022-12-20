@@ -2,10 +2,6 @@
     font-family: 'Arial Rounded MT';
 }
 
-.bloodied {
-    background-color: red;
-    background-blend-mode: ;
-}
 
 .new {
     display: flex;
@@ -15,6 +11,25 @@
     padding: 16px;
 }
 
+.win {
+    display: flex;
+    color: greenyellow;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    font-size: x-large;
+}
+
+.loss {
+    display: flex;
+    color: red;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    font-size: x-large;
+}
+
+
 body {
     display: flex;
     height: 100vh;
@@ -22,10 +37,12 @@ body {
     align-items: center;
     justify-content: center;
     background-color: black;
+    margin-top: 26px;
+    border: 8px, solid, wheat;
 }
 .heading {
     color: wheat;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
     font-size: 50px;
     padding: 16px;
 }
@@ -52,16 +69,7 @@ button {
     border-radius: 150px;
 }
 
-.wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 9rem;
-    flex-wrap: wrap;
-    margin-top: auto;
-    margin-bottom: 24px;
-    position: absolute;
-}
+
 
 .rock {
     background-image:url(rock.jpg);
@@ -82,4 +90,14 @@ button:hover {
     transform: scale(1.1);
     cursor: pointer;
     border-color: antiquewhite;
+}
+
+#wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9rem;
+    flex-wrap: wrap;
+    margin-top: 480px;
+    position: absolute;
 }
